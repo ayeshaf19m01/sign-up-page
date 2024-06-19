@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result Card</title>
+    <style>
+        /* Container for the Result Card */
+        .result-card {
+            width: 70%;
+            margin: 0 auto;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* School Logo on the Top Left */
+        .school-logo {
+            /* position: absolute; */
+            top: 20px;
+            left: 20px;
+            width: 80px;
+            height: 80px;
+            
+        }
+
+        /* School Logo on the Top Right */
+        .student-logo {
+            /* position: absolute; */
+            top: 20px;
+            float: right;
+            right: 20px;
+            width: 80px;
+            height: 80px;
+           
+        }
+
+        /* Centered Name of School */
+        .centered-text {
+            text-align: center;
+        }
+
+       */
+
+        /* Student Name, Father's Name, CNIC */
+        .student-details {
+
+            margin:30px 0px;
+        }
+
+        /* Table Styling on the Right */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+    
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Total Marks and Remarks on the Right */
+        .total-marks {
+            text-align: right;
+        }
+
+        .date-signature {
+            clear: both;
+        
+        }
+        .right-align {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-card">
+        <div class="header">
+        <img class="school-logo" src="pun.png" alt="School Logo">
+            <h2>Punjab Daanish School for Girls</h2>
+            <img class="student-logo" src="daanish.jpg" alt="Student Logo">
+        </div>
+            <div class="student-details">
+                <p>Name of Student: XYZ</p>
+                <p>Name of Father: XYZ</p>
+                <p>CNIC: 12345-67890</p>
+            </div>
+        <table>
+            <tr>
+                <th>Sr. No</th>
+                <th>Subject</th>
+                <th>Obtained Marks</th>
+                <th>Total Marks</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Mathematics</td>
+                <td>90</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Physics</td>
+                <td>85</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Chemistry</td>
+                <td>88</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>English</td>
+                <td>92</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Urdu</td>
+                <td>87</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Pak Studies</td>
+                <td>80</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Islamiyat</td>
+                <td>90</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td colspan="4">Total Obtained Marks: 612 out of 700</td>
+            </tr>
+            
+        </table>
+        
+        <div class="date-signature">
+            <p>Date: 2023-10-26</p>
+            <p>Signature: ____________________________</p>
+        </div>
+    </div>
+</body>
+</html>
